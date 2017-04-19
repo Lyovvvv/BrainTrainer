@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  BrainTrainer
+//  CoreData
 //
-//  Created by Levon Gharibyan  on 4/13/17.
-//  Copyright © 2017 Brain Trainer. All rights reserved.
+//  Created by Levon Gharibyan  on 4/14/17.
+//  Copyright © 2017 Home. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
- 
+    // Override point for customization after application launch.
     return YES;
 }
 
@@ -58,7 +58,7 @@
     // The persistent container for the application. This implementation creates and returns a container, having loaded the store for the application to it.
     @synchronized (self) {
         if (_persistentContainer == nil) {
-            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"BrainTrainer"];
+            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"CoreData"];
             [_persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *storeDescription, NSError *error) {
                 if (error != nil) {
                     // Replace this implementation with code to handle the error appropriately.

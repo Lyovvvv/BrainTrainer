@@ -1,0 +1,1 @@
+../../../SimpleImageSlider/SimpleImageSlider/Classes/UIScrollView+VGParallaxHeader.h

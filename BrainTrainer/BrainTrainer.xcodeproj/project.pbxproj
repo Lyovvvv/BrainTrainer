@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080663371EA7868200FD8C37 /* page 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 080663331EA7868100FD8C37 /* page 1.jpg */; };
+		080663381EA7868200FD8C37 /* page 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 080663341EA7868100FD8C37 /* page 2.jpg */; };
+		080663391EA7868200FD8C37 /* page 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 080663351EA7868100FD8C37 /* page 3.jpg */; };
+		0806633A1EA7868200FD8C37 /* page 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 080663361EA7868100FD8C37 /* page 4.jpg */; };
 		08D56D6D1E9FF29E00D76116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D56D6C1E9FF29E00D76116 /* main.m */; };
 		08D56D701E9FF29F00D76116 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D56D6F1E9FF29F00D76116 /* AppDelegate.m */; };
 		08D56D731E9FF29F00D76116 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D56D721E9FF29F00D76116 /* ViewController.m */; };
@@ -14,9 +18,16 @@
 		08D56D791E9FF2A000D76116 /* BrainTrainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08D56D771E9FF2A000D76116 /* BrainTrainer.xcdatamodeld */; };
 		08D56D7B1E9FF2A000D76116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D56D7A1E9FF2A000D76116 /* Assets.xcassets */; };
 		08D56D7E1E9FF2A000D76116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D56D7C1E9FF2A000D76116 /* LaunchScreen.storyboard */; };
+		08E99C3A1EA7A0A300FCD099 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E99C391EA7A0A300FCD099 /* RegistrationViewController.m */; };
+		08E99C3D1EA7A29A00FCD099 /* ProfilePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E99C3C1EA7A29A00FCD099 /* ProfilePageViewController.m */; };
+		742405B51537DD461F57F26E /* libPods-BrainTrainer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0259CBC223BB785BE7F1277 /* libPods-BrainTrainer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		080663331EA7868100FD8C37 /* page 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "page 1.jpg"; path = "Images/PresentationView Images/page 1.jpg"; sourceTree = SOURCE_ROOT; };
+		080663341EA7868100FD8C37 /* page 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "page 2.jpg"; path = "Images/PresentationView Images/page 2.jpg"; sourceTree = SOURCE_ROOT; };
+		080663351EA7868100FD8C37 /* page 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "page 3.jpg"; path = "Images/PresentationView Images/page 3.jpg"; sourceTree = SOURCE_ROOT; };
+		080663361EA7868100FD8C37 /* page 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "page 4.jpg"; path = "Images/PresentationView Images/page 4.jpg"; sourceTree = SOURCE_ROOT; };
 		08D56D681E9FF29E00D76116 /* BrainTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D56D6C1E9FF29E00D76116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08D56D6E1E9FF29E00D76116 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +39,13 @@
 		08D56D7A1E9FF2A000D76116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08D56D7D1E9FF2A000D76116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08D56D7F1E9FF2A100D76116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E99C381EA7A0A300FCD099 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		08E99C391EA7A0A300FCD099 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		08E99C3B1EA7A29A00FCD099 /* ProfilePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfilePageViewController.h; sourceTree = "<group>"; };
+		08E99C3C1EA7A29A00FCD099 /* ProfilePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfilePageViewController.m; sourceTree = "<group>"; };
+		9942303E830B86D5726635BB /* Pods-BrainTrainer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTrainer.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTrainer/Pods-BrainTrainer.release.xcconfig"; sourceTree = "<group>"; };
+		9D5E6CE0D1372D17CD799EE0 /* Pods-BrainTrainer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTrainer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTrainer/Pods-BrainTrainer.debug.xcconfig"; sourceTree = "<group>"; };
+		E0259CBC223BB785BE7F1277 /* libPods-BrainTrainer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrainTrainer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +53,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				742405B51537DD461F57F26E /* libPods-BrainTrainer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0650CF494BD139CC205F0C82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0259CBC223BB785BE7F1277 /* libPods-BrainTrainer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0806633B1EA7869B00FD8C37 /* PresentationImage */ = {
+			isa = PBXGroup;
+			children = (
+				080663331EA7868100FD8C37 /* page 1.jpg */,
+				080663341EA7868100FD8C37 /* page 2.jpg */,
+				080663351EA7868100FD8C37 /* page 3.jpg */,
+				080663361EA7868100FD8C37 /* page 4.jpg */,
+			);
+			name = PresentationImage;
+			sourceTree = "<group>";
+		};
 		08D56D5F1E9FF29D00D76116 = {
 			isa = PBXGroup;
 			children = (
 				08D56D6A1E9FF29E00D76116 /* BrainTrainer */,
 				08D56D691E9FF29E00D76116 /* Products */,
+				2CB721B32B95A534F1F6FDA5 /* Pods */,
+				0650CF494BD139CC205F0C82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +105,11 @@
 				08D56D711E9FF29F00D76116 /* ViewController.h */,
 				08D56D721E9FF29F00D76116 /* ViewController.m */,
 				08D56D741E9FF29F00D76116 /* Main.storyboard */,
+				08E99C3B1EA7A29A00FCD099 /* ProfilePageViewController.h */,
+				08E99C3C1EA7A29A00FCD099 /* ProfilePageViewController.m */,
+				08E99C381EA7A0A300FCD099 /* RegistrationViewController.h */,
+				08E99C391EA7A0A300FCD099 /* RegistrationViewController.m */,
+				0806633B1EA7869B00FD8C37 /* PresentationImage */,
 				08D56D7A1E9FF2A000D76116 /* Assets.xcassets */,
 				08D56D7C1E9FF2A000D76116 /* LaunchScreen.storyboard */,
 				08D56D7F1E9FF2A100D76116 /* Info.plist */,
@@ -82,6 +127,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2CB721B32B95A534F1F6FDA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D5E6CE0D1372D17CD799EE0 /* Pods-BrainTrainer.debug.xcconfig */,
+				9942303E830B86D5726635BB /* Pods-BrainTrainer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08D56D821E9FF2A100D76116 /* Build configuration list for PBXNativeTarget "BrainTrainer" */;
 			buildPhases = (
+				3EBFB80920E49B21DED12C23 /* [CP] Check Pods Manifest.lock */,
 				08D56D641E9FF29E00D76116 /* Sources */,
 				08D56D651E9FF29E00D76116 /* Frameworks */,
 				08D56D661E9FF29E00D76116 /* Resources */,
+				BE99051F5977BFFE41E001C2 /* [CP] Embed Pods Frameworks */,
+				8E62CF98823B773D91A59501 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,13 +197,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				080663381EA7868200FD8C37 /* page 2.jpg in Resources */,
 				08D56D7E1E9FF2A000D76116 /* LaunchScreen.storyboard in Resources */,
 				08D56D7B1E9FF2A000D76116 /* Assets.xcassets in Resources */,
+				080663391EA7868200FD8C37 /* page 3.jpg in Resources */,
 				08D56D761E9FF29F00D76116 /* Main.storyboard in Resources */,
+				080663371EA7868200FD8C37 /* page 1.jpg in Resources */,
+				0806633A1EA7868200FD8C37 /* page 4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EBFB80920E49B21DED12C23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E62CF98823B773D91A59501 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrainTrainer/Pods-BrainTrainer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE99051F5977BFFE41E001C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrainTrainer/Pods-BrainTrainer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08D56D641E9FF29E00D76116 /* Sources */ = {
@@ -155,6 +264,8 @@
 			files = (
 				08D56D731E9FF29F00D76116 /* ViewController.m in Sources */,
 				08D56D701E9FF29F00D76116 /* AppDelegate.m in Sources */,
+				08E99C3A1EA7A0A300FCD099 /* RegistrationViewController.m in Sources */,
+				08E99C3D1EA7A29A00FCD099 /* ProfilePageViewController.m in Sources */,
 				08D56D791E9FF2A000D76116 /* BrainTrainer.xcdatamodeld in Sources */,
 				08D56D6D1E9FF29E00D76116 /* main.m in Sources */,
 			);
@@ -274,6 +385,7 @@
 		};
 		08D56D831E9FF2A100D76116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5E6CE0D1372D17CD799EE0 /* Pods-BrainTrainer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BrainTrainer/Info.plist;
@@ -285,6 +397,7 @@
 		};
 		08D56D841E9FF2A100D76116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9942303E830B86D5726635BB /* Pods-BrainTrainer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BrainTrainer/Info.plist;
@@ -313,6 +426,7 @@
 				08D56D841E9FF2A100D76116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
